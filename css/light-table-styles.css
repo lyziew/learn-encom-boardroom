@@ -281,10 +281,10 @@ ul {
 
 .blink {
     animation: blink 1s steps(2, start) infinite;
-    -webkit-animation-name: blink;  
-    -webkit-animation-iteration-count: infinite;  
+    -webkit-animation-name: blink;
+    -webkit-animation-iteration-count: infinite;
     -webkit-animation-timing-function: cubic-bezier(1.0,0,0,1.0);
-    -webkit-animation-duration: 1s; 
+    -webkit-animation-duration: 1s;
 }
 @keyframes blink {
     to { visibility: hidden; }
@@ -456,26 +456,24 @@ ul {
     top: 500px;
     z-index: 200;
     -webkit-animation: pulsate 5s;
-    -webkit-animation-iteration-count: 100; 
+    -webkit-animation-iteration-count: 100;
     animation: pulsate 5s ease-out;
-    animation-iteration-count: 100; 
+    animation-iteration-count: 100;
 }
 
-@-webkit-keyframes pulsate { 
+@-webkit-keyframes pulsate {
     0% {opacity: .3;}
     50% {opacity: 1.0;}
     100% {opacity: 0.3;}
 }
 
-@keyframes pulsate { 
+@keyframes pulsate {
     0% {opacity: 0.3;}
     50% {opacity: 1.0;}
     100% {opacity: 0.3;}
 }
-}
 
-
-@media (max-width: 1100px) { 
+@media (max-width: 1100px) {
 
     #lt-far-right-column {
         display: none;
@@ -583,7 +581,7 @@ ul {
 
 }
 
-@media (min-width: 1600px) { 
+@media (min-width: 1600px) {
 
     body {
         font-size:8pt;

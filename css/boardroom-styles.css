@@ -38,8 +38,8 @@ div {
 
     position: absolute;
     right: 0;
-    left: 0; 
-    top: 0; 
+    left: 0;
+    top: 0;
     bottom: 0;
     margin: auto;
     max-width: 100%;
@@ -524,7 +524,7 @@ div {
 #ticker-line-1{
     border-left: 8px solid #00eeee;
     margin-bottom: 2px;
-    
+
 }
 
 #stock-chart
@@ -533,7 +533,7 @@ div {
     top: 50px;
     left: 105px;
     width: 496px;
-    height:105px; 
+    height:105px;
     overflow: hidden;
 }
 #stock-chart canvas {
@@ -666,7 +666,7 @@ div {
 #media-bottom .user-pic{
     float: right;
 }
- 
+
 
 .user-pic.larger{
     height: 184px;
@@ -955,7 +955,7 @@ left: 190px;
     width:1px;
     height:26px;
     float:right;
-    background-color:#000; 
+    background-color:#000;
 }
 
 #clockbar {
@@ -978,7 +978,7 @@ left: 190px;
 
 .section-timerbar{
     width: 65px;
-    border: 1px solid #00EEEE; 
+    border: 1px solid #00EEEE;
     float:left;
     color: #FFFFFF;
     font-size: 8px;

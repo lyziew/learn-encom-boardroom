@@ -18,13 +18,15 @@ module.exports = function(grunt) {
                 }
             }
         }
-        
+
     });
 
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-copy');
     grunt.loadNpmTasks('grunt-browserify');
     grunt.loadNpmTasks('grunt-contrib-uglify');
+
+    grunt.registerTask('build', ['browserify', 'uglify']);
 
 
 };
